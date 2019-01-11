@@ -1,0 +1,17 @@
+{
+  "name": "test.williams.sonoma",
+  "version": "1.0.0",
+  "description": "Test project to display a store front.",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "author": "Brent Chance",
+  "license": "ISC",
+  "dependencies": {
+    "babel-eslint": "^8.2.6",
+    "eslint": "^4.19.1",
+    "express": "^4.16.4"
+  }
+}

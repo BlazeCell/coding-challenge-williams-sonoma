@@ -1,0 +1,11 @@
+- Display list of products
+	- Clicking opens product details
+		- product image?
+			- clicking on hero image shows rotary of sub hero images?
+		- price
+		- product name
+		- main hero image
+			- clicking on hero image shows rotary of sub hero images
+- Reactive sizing:
+	- 1 column for mobile
+	- 3 columns otherwise
