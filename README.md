@@ -15,7 +15,7 @@ Download this project to your computer by either clicking 'Download ZIP' above t
 
 Or clone it if you have git installed:
 ```
-git clone 
+git clone https://github.com/BlazeCell/coding-challenge-williams-sonoma
 ```
 
 ## Run the Site Locally
@@ -37,10 +37,13 @@ If the server is running successfully, you should see the following output:
 ```
 Server live
 Listening on port 80
-
 ```
 
-Once the server is up and running, open your browser of choice and navigate to [localhost](http://localhost).
+Once the server is up and running, open your browser of choice and navigate to:
+
+```
+[localhost](http://localhost)
+```
 
 The site should load and you can play with the UI.
 

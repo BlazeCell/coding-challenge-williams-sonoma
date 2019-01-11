@@ -43,7 +43,9 @@ view.genCard = (group) =>
 
 	let dom =
 `<card data-id="${id}" style="background-image: url('${thumbnail}')" onclick="showProductDetails(this);">
-	<div class="price">$${price}</div>
+	<div class="price">
+		<span>$${price}</span>
+	</div>
 	<div class="name">${name}</div>
 </card>`;
 
