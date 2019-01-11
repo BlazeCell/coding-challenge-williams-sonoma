@@ -74,7 +74,7 @@ view.genDom = (group) =>
 `<span class="close" onclick="hideProductDetails(); return false;">&#x1F5D9;</span>
 <block class="name left">${name}</block>
 <block class="right">
-	<div data-id="${id}" class="image_hero" onclick="showImageCarousel(this); return false;">
+	<div data-id="${id}" class="image-hero" onclick="showImageCarousel(this); return false;">
 		<img src="${image_hero}" />
 	</div>
 	<div class="price">

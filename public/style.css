@@ -107,16 +107,39 @@ card .price
 	padding-right: 30px;
 	border-radius: 0 30px 30px 0;
 
-	line-height: 600px;
-	text-align: right;
-	vertical-align: bottom;
-	font-weight: bold;
-	font-size: 1.5em;
-
 	background: linear-gradient(to left, 
 								rgba(255,255,255,1) 0%,
 								rgba(255,255,255,1) 50%,
 								rgba(255,255,255,0) 100%);
+}
+
+card .price span
+{
+	display: inline-block;
+	position: absolute;
+	bottom: 20px;
+	right: 30px;
+
+	text-align: right;
+	vertical-align: bottom;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+
+card:hover,
+card:active
+{
+	box-shadow: 5px 5px 30px 10px rgba(127,127,255,0.5);
+	border: 15px solid #7f7fff;
+}
+card:hover .price span,
+card:active .price span
+{
+	font-size: 2.0em;
+	color: #7f7fff;
+	bottom: 15px;
+	right: 25px;
 }
 
 overlay
@@ -150,6 +173,11 @@ overlay
 	user-select: none;
 
 	cursor: pointer;
+}
+.close:hover,
+.close:active
+{
+	color: #f00;
 }
 
 .details
@@ -187,7 +215,7 @@ overlay
 	text-align: center;
 }
 
-.details .image_hero
+.details .image-hero
 {
 	width: 525px;
 	height: 525px;
@@ -197,7 +225,7 @@ overlay
 	cursor: pointer;
 }
 
-.details .image_hero img
+.details .image-hero img
 {
 	width: 100%;
 	height: 100%;
@@ -205,6 +233,20 @@ overlay
 	margin: 0;
 	padding: 0;
 	border: none;
+}
+
+
+
+.details .image-hero:hover,
+.details .image-hero:active
+{
+	border: 15px solid #7f7fff;
+	border-radius: 30px;
+}
+.details .image-hero:hover img,
+.details .image-hero:active img
+{
+	border-radius: 30px;
 }
 
 .details .price
@@ -249,7 +291,7 @@ button
 	font-weight: bold;
 	font-size: 1.2em;
 	outline: none;
-	cursor: pointer;
+	/*cursor: pointer;*/
 }
 
 .details .info
@@ -485,7 +527,7 @@ button
 		width: 525px;
 	}
 
-	.details .image_hero
+	.details .image-hero
 	{
 		width: 525px;
 		height: 525px;
@@ -517,7 +559,7 @@ button
 		width: 375px;
 	}
 
-	.details .image_hero
+	.details .image-hero
 	{
 		width: 375px;
 		height: 375px;
@@ -550,14 +592,14 @@ button
 		width: 400px;
 	}
 
-	.details .image_hero
+	.details .image-hero
 	{
 		width: 400px;
 		height: 400px;
 	}
 
 	.details .name,
-	.details .image_hero,
+	.details .image-hero,
 	.details .price
 	{
 		margin-bottom: 20px;
