@@ -41,9 +41,7 @@ Listening on port 80
 
 Once the server is up and running, open your browser of choice and navigate to:
 
-```
-[localhost](http://localhost)
-```
+**[localhost](http://localhost)**
 
 The site should load and you can play with the UI.
 
