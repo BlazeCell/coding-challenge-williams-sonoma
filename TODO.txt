@@ -9,3 +9,15 @@
 - Reactive sizing:
 	- 1 column for mobile
 	- 3 columns otherwise
+
+
+DONE:
+
+- Added HTML DOCTYPE.
+- Reconfigured code to not assign anything to 'window' and 'document'.
+- View modules only have access to the data that they need.
+- Model-View-Controller structure much more clearly embraced.
+- Modules are now structured to have narrower responsibilities.
+- Modals are now designed to be created when they're needed and destroyed when they're not.
+- Adjusted styling so that images aren't shrunken when hovered.
+
