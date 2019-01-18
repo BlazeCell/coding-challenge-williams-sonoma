@@ -47,9 +47,25 @@ The site should load and you can play with the UI.
 
 ## Running the tests
 
-This project was tested with [ESLint](https://eslint.org/).
+### Unit Tests
 
-To run the tests, open the command line and navigate to the project folder:
+This project is tested with custom unit tests.
+
+To run the tests, make sure the server is running and navigate your browser to:
+
+**[localhost/test](http://localhost/test)**
+
+The test output is displayed in the browser console.
+
+To access the browser console, press **F12** (in Chrome) or right-click the page and select the '**Inspect Element**'.
+
+Then focus the '**Console**' tab and you should see the test results in the log.
+
+### Linter
+
+This project is linted with [ESLint](https://eslint.org/).
+
+To run the linter, open the command line and navigate to the project folder:
 
 ```
 cd path/to/project/directory

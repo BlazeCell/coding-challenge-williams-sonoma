@@ -3,9 +3,9 @@ import ModalImageCarousel from './modal-image-carousel.js';
 
 export default class ModalProductDetails extends Modal
 {
-	constructor(group)
+	constructor(group, container = null)
 	{
-		super();
+		super(group, container);
 
 		// Populate the modal.
 		let dom = this.genDom(group);

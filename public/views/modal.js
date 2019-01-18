@@ -2,7 +2,7 @@ import ViewBase from './view-base.js';
 
 export default class Modal extends ViewBase
 {
-	constructor(container = null)
+	constructor(group, container = null)
 	{
 		super(container);
 

@@ -7,6 +7,8 @@ export default class CardProduct extends Card
 	{
 		super(group);
 
+		this.elem.id = 'bloob';
+
 		this.elem.innerHTML = this.genDom(group);
 		this.elem.onclick = () =>
 		{

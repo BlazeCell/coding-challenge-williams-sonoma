@@ -12,6 +12,12 @@ app.get('/', function(req, res)
 	res.sendFile(path.join(__dirname + '/index.html'));
 });
 
+// Load tests.html
+app.get('/test*', function(req, res)
+{
+	res.sendFile(path.join(__dirname + '/public/tests.html'));
+});
+
 // Start the server on port 80
 const server = app.listen(80, function()
 {

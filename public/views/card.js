@@ -7,6 +7,8 @@ export default class Card extends ViewBase
 		super(container);
 
 		this.elem = document.createElement('card');
+
+		this.container.appendChild(this.elem);
 	}
 
 	// Destroys the card

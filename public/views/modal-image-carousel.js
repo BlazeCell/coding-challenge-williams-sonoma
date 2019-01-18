@@ -2,9 +2,9 @@ import Modal from './modal.js';
 
 export default class ModalImageCarousel extends Modal
 {
-	constructor(group)
+	constructor(group, container = null)
 	{
-		super();
+		super(group, container);
 
 		// Populate the modal.
 		let dom = this.genDom();

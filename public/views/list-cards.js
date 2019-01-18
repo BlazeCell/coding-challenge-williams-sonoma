@@ -3,7 +3,7 @@ import Card from './card.js';
 
 export default class ListCards extends ViewBase
 {
-	constructor(groups, card_class, container = null)
+	constructor(groups = [], card_class = null, container = null)
 	{
 		super(container);
 
